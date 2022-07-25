@@ -1,0 +1,1514 @@
+{
+  "difficultyModifier": {
+    "increasedDangerFrequency": 0,
+    "deathEventsLevel": 5,
+    "dangerDurationModifier": 0,
+    "deathEventsSpawnLevel": 0,
+    "ambitionLevel": 0,
+    "increasedResearchCost": 0,
+    "scenarioDifficulty": 0,
+    "ascensionLevel": 0
+  },
+  "stone": 50,
+  "villagers": [
+    "die:0",
+    "die:1",
+    "die:2",
+    "die:3",
+    "die:10",
+    "die:15",
+    "die:20",
+    "die:27",
+    "die:33",
+    "die:42",
+    "die:55",
+    "die:108",
+    "die:117",
+    "die:121",
+    "die:127"
+  ],
+  "gamemode": "Scenario",
+  "biomes": [
+    "biome:grasslands",
+    "biome:forest",
+    "biome:hill"
+  ],
+  "spawnedEvents": {},
+  "events": [
+    "region:189",
+    "region:190",
+    "region:191",
+    "region:192",
+    "region:193",
+    "region:194"
+  ],
+  "death": 0,
+  "locations": [
+    "region:87",
+    "region:182",
+    "region:177",
+    "region:173",
+    "region:186"
+  ],
+  "buildings": [
+    "region:9",
+    "region:29",
+    "region:45",
+    "region:53",
+    "region:104",
+    "region:167"
+  ],
+  "science": 21,
+  "peakPopulation": 15,
+  "flags": [],
+  "food": 357,
+  "history": {
+    "turns": [
+      {
+        "villagerStart": 4,
+        "woodEnd": 5,
+        "stoneEnd": 0,
+        "villagerEnd": 5,
+        "resourceConsumed": {
+          "food": 9,
+          "science": 2,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 45,
+        "woodStart": 5,
+        "events": [
+          {
+            "data": {
+              "typeName": "Normal"
+            },
+            "type": "VillagerGained"
+          },
+          {
+            "data": {
+              "typeName": "research:foraging"
+            },
+            "type": "ResearchEvent"
+          }
+        ],
+        "scienceStart": 5,
+        "turn": 1,
+        "scienceEnd": 3,
+        "resourceGained": {
+          "food": 0,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 0,
+        "foodEnd": 36
+      },
+      {
+        "villagerStart": 5,
+        "woodEnd": 8,
+        "stoneEnd": 0,
+        "villagerEnd": 5,
+        "resourceConsumed": {
+          "food": 5,
+          "science": 2,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 36,
+        "woodStart": 5,
+        "events": [
+          {
+            "data": {
+              "typeName": "research:woodtools"
+            },
+            "type": "ResearchEvent"
+          }
+        ],
+        "scienceStart": 3,
+        "turn": 2,
+        "scienceEnd": 1,
+        "resourceGained": {
+          "food": 4,
+          "science": 0,
+          "stone": 0,
+          "wood": 3
+        },
+        "stoneStart": 0,
+        "foodEnd": 35
+      },
+      {
+        "villagerStart": 5,
+        "woodEnd": 8,
+        "stoneEnd": 0,
+        "villagerEnd": 6,
+        "resourceConsumed": {
+          "food": 11,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 35,
+        "woodStart": 8,
+        "events": [
+          {
+            "data": {
+              "typeName": "Normal"
+            },
+            "type": "VillagerGained"
+          }
+        ],
+        "scienceStart": 1,
+        "turn": 3,
+        "scienceEnd": 1,
+        "resourceGained": {
+          "food": 3,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 0,
+        "foodEnd": 27
+      },
+      {
+        "villagerStart": 6,
+        "woodEnd": 8,
+        "stoneEnd": 0,
+        "villagerEnd": 7,
+        "resourceConsumed": {
+          "food": 13,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 27,
+        "woodStart": 8,
+        "events": [
+          {
+            "data": {
+              "typeName": "Normal"
+            },
+            "type": "VillagerGained"
+          }
+        ],
+        "scienceStart": 1,
+        "turn": 4,
+        "scienceEnd": 1,
+        "resourceGained": {
+          "food": 16,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 0,
+        "foodEnd": 30
+      },
+      {
+        "villagerStart": 7,
+        "woodEnd": 8,
+        "stoneEnd": 2,
+        "villagerEnd": 7,
+        "resourceConsumed": {
+          "food": 7,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 30,
+        "woodStart": 8,
+        "events": [],
+        "scienceStart": 1,
+        "turn": 5,
+        "scienceEnd": 3,
+        "resourceGained": {
+          "food": 8,
+          "science": 2,
+          "stone": 2,
+          "wood": 0
+        },
+        "stoneStart": 0,
+        "foodEnd": 31
+      },
+      {
+        "villagerStart": 7,
+        "woodEnd": 10,
+        "stoneEnd": 2,
+        "villagerEnd": 8,
+        "resourceConsumed": {
+          "food": 8,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 31,
+        "woodStart": 8,
+        "events": [
+          {
+            "data": {
+              "typeName": "Normal"
+            },
+            "type": "VillagerGained"
+          }
+        ],
+        "scienceStart": 3,
+        "turn": 6,
+        "scienceEnd": 3,
+        "resourceGained": {
+          "food": 9,
+          "science": 0,
+          "stone": 0,
+          "wood": 2
+        },
+        "stoneStart": 2,
+        "foodEnd": 32
+      },
+      {
+        "villagerStart": 8,
+        "woodEnd": 8,
+        "stoneEnd": 7,
+        "villagerEnd": 8,
+        "resourceConsumed": {
+          "food": 11,
+          "science": 2,
+          "stone": 0,
+          "wood": 2
+        },
+        "foodStart": 32,
+        "woodStart": 10,
+        "events": [
+          {
+            "data": {
+              "typeName": "research:trapping"
+            },
+            "type": "ResearchEvent"
+          }
+        ],
+        "scienceStart": 3,
+        "turn": 7,
+        "scienceEnd": 1,
+        "resourceGained": {
+          "food": 19,
+          "science": 0,
+          "stone": 5,
+          "wood": 0
+        },
+        "stoneStart": 2,
+        "foodEnd": 40
+      },
+      {
+        "villagerStart": 8,
+        "woodEnd": 6,
+        "stoneEnd": 7,
+        "villagerEnd": 9,
+        "resourceConsumed": {
+          "food": 13,
+          "science": 1,
+          "stone": 0,
+          "wood": 2
+        },
+        "foodStart": 40,
+        "woodStart": 8,
+        "events": [
+          {
+            "data": {
+              "typeName": "Normal"
+            },
+            "type": "VillagerGained"
+          },
+          {
+            "data": {
+              "typeName": "research:woodcutter"
+            },
+            "type": "ResearchEvent"
+          },
+          {
+            "data": {
+              "typeName": "building:foragerhut"
+            },
+            "type": "BuildEvent"
+          }
+        ],
+        "scienceStart": 1,
+        "turn": 8,
+        "scienceEnd": 0,
+        "resourceGained": {
+          "food": 4,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 7,
+        "foodEnd": 31
+      },
+      {
+        "villagerStart": 9,
+        "woodEnd": 5,
+        "stoneEnd": 6,
+        "villagerEnd": 9,
+        "resourceConsumed": {
+          "food": 9,
+          "science": 0,
+          "stone": 1,
+          "wood": 2
+        },
+        "foodStart": 31,
+        "woodStart": 6,
+        "events": [
+          {
+            "data": {
+              "typeName": "building:trapperhut"
+            },
+            "type": "BuildEvent"
+          }
+        ],
+        "scienceStart": 0,
+        "turn": 9,
+        "scienceEnd": 0,
+        "resourceGained": {
+          "food": 8,
+          "science": 0,
+          "stone": 0,
+          "wood": 1
+        },
+        "stoneStart": 7,
+        "foodEnd": 30
+      },
+      {
+        "villagerStart": 9,
+        "woodEnd": 5,
+        "stoneEnd": 6,
+        "villagerEnd": 10,
+        "resourceConsumed": {
+          "food": 10,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 30,
+        "woodStart": 5,
+        "events": [
+          {
+            "data": {
+              "typeName": "Normal"
+            },
+            "type": "VillagerGained"
+          }
+        ],
+        "scienceStart": 0,
+        "turn": 10,
+        "scienceEnd": 0,
+        "resourceGained": {
+          "food": 13,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 6,
+        "foodEnd": 33
+      },
+      {
+        "villagerStart": 10,
+        "woodEnd": 5,
+        "stoneEnd": 6,
+        "villagerEnd": 10,
+        "resourceConsumed": {
+          "food": 11,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 33,
+        "woodStart": 5,
+        "events": [
+          {
+            "data": {
+              "typeName": "building:woodcutterhut"
+            },
+            "type": "BuildEvent"
+          }
+        ],
+        "scienceStart": 0,
+        "turn": 11,
+        "scienceEnd": 0,
+        "resourceGained": {
+          "food": 24,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 6,
+        "foodEnd": 46
+      },
+      {
+        "villagerStart": 10,
+        "woodEnd": 7,
+        "stoneEnd": 6,
+        "villagerEnd": 10,
+        "resourceConsumed": {
+          "food": 10,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 46,
+        "woodStart": 5,
+        "events": [],
+        "scienceStart": 0,
+        "turn": 12,
+        "scienceEnd": 0,
+        "resourceGained": {
+          "food": 18,
+          "science": 0,
+          "stone": 0,
+          "wood": 2
+        },
+        "stoneStart": 6,
+        "foodEnd": 54
+      },
+      {
+        "villagerStart": 10,
+        "woodEnd": 7,
+        "stoneEnd": 10,
+        "villagerEnd": 11,
+        "resourceConsumed": {
+          "food": 11,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 54,
+        "woodStart": 7,
+        "events": [
+          {
+            "data": {
+              "typeName": "building:woodentools"
+            },
+            "type": "BuildEvent"
+          },
+          {
+            "data": {
+              "typeName": "Normal"
+            },
+            "type": "VillagerGained"
+          }
+        ],
+        "scienceStart": 0,
+        "turn": 13,
+        "scienceEnd": 2,
+        "resourceGained": {
+          "food": 15,
+          "science": 2,
+          "stone": 4,
+          "wood": 0
+        },
+        "stoneStart": 6,
+        "foodEnd": 58
+      },
+      {
+        "villagerStart": 11,
+        "woodEnd": 7,
+        "stoneEnd": 10,
+        "villagerEnd": 11,
+        "resourceConsumed": {
+          "food": 11,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 58,
+        "woodStart": 7,
+        "events": [],
+        "scienceStart": 2,
+        "turn": 14,
+        "scienceEnd": 2,
+        "resourceGained": {
+          "food": 30,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 10,
+        "foodEnd": 77
+      },
+      {
+        "villagerStart": 11,
+        "woodEnd": 10,
+        "stoneEnd": 13,
+        "villagerEnd": 11,
+        "resourceConsumed": {
+          "food": 11,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 77,
+        "woodStart": 7,
+        "events": [],
+        "scienceStart": 2,
+        "turn": 15,
+        "scienceEnd": 2,
+        "resourceGained": {
+          "food": 16,
+          "science": 0,
+          "stone": 3,
+          "wood": 3
+        },
+        "stoneStart": 10,
+        "foodEnd": 82
+      },
+      {
+        "villagerStart": 11,
+        "woodEnd": 12,
+        "stoneEnd": 23,
+        "villagerEnd": 11,
+        "resourceConsumed": {
+          "food": 11,
+          "science": 2,
+          "stone": 0,
+          "wood": 2
+        },
+        "foodStart": 82,
+        "woodStart": 10,
+        "events": [
+          {
+            "data": {
+              "typeName": "research:stonetools"
+            },
+            "type": "ResearchEvent"
+          }
+        ],
+        "scienceStart": 2,
+        "turn": 16,
+        "scienceEnd": 0,
+        "resourceGained": {
+          "food": 6,
+          "science": 0,
+          "stone": 10,
+          "wood": 4
+        },
+        "stoneStart": 13,
+        "foodEnd": 77
+      },
+      {
+        "villagerStart": 11,
+        "woodEnd": 18,
+        "stoneEnd": 23,
+        "villagerEnd": 11,
+        "resourceConsumed": {
+          "food": 11,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 77,
+        "woodStart": 12,
+        "events": [],
+        "scienceStart": 0,
+        "turn": 17,
+        "scienceEnd": 10,
+        "resourceGained": {
+          "food": 15,
+          "science": 10,
+          "stone": 0,
+          "wood": 6
+        },
+        "stoneStart": 23,
+        "foodEnd": 81
+      },
+      {
+        "villagerStart": 11,
+        "woodEnd": 21,
+        "stoneEnd": 28,
+        "villagerEnd": 11,
+        "resourceConsumed": {
+          "food": 11,
+          "science": 3,
+          "stone": 0,
+          "wood": 4
+        },
+        "foodStart": 81,
+        "woodStart": 18,
+        "events": [
+          {
+            "data": {
+              "typeName": "research:medicine"
+            },
+            "type": "ResearchEvent"
+          }
+        ],
+        "scienceStart": 10,
+        "turn": 18,
+        "scienceEnd": 7,
+        "resourceGained": {
+          "food": 20,
+          "science": 0,
+          "stone": 5,
+          "wood": 7
+        },
+        "stoneStart": 23,
+        "foodEnd": 90
+      },
+      {
+        "villagerStart": 11,
+        "woodEnd": 19,
+        "stoneEnd": 30,
+        "villagerEnd": 11,
+        "resourceConsumed": {
+          "food": 11,
+          "science": 0,
+          "stone": 0,
+          "wood": 4
+        },
+        "foodStart": 90,
+        "woodStart": 21,
+        "events": [],
+        "scienceStart": 7,
+        "turn": 19,
+        "scienceEnd": 9,
+        "resourceGained": {
+          "food": 8,
+          "science": 2,
+          "stone": 2,
+          "wood": 2
+        },
+        "stoneStart": 28,
+        "foodEnd": 87
+      },
+      {
+        "villagerStart": 11,
+        "woodEnd": 19,
+        "stoneEnd": 24,
+        "villagerEnd": 11,
+        "resourceConsumed": {
+          "food": 11,
+          "science": 0,
+          "stone": 6,
+          "wood": 0
+        },
+        "foodStart": 87,
+        "woodStart": 19,
+        "events": [
+          {
+            "data": {
+              "typeName": "building:hospital"
+            },
+            "type": "BuildEvent"
+          }
+        ],
+        "scienceStart": 9,
+        "turn": 20,
+        "scienceEnd": 9,
+        "resourceGained": {
+          "food": 14,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 30,
+        "foodEnd": 90
+      },
+      {
+        "villagerStart": 11,
+        "woodEnd": 19,
+        "stoneEnd": 24,
+        "villagerEnd": 11,
+        "resourceConsumed": {
+          "food": 11,
+          "science": 3,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 90,
+        "woodStart": 19,
+        "events": [
+          {
+            "data": {
+              "typeName": "research:orchard"
+            },
+            "type": "ResearchEvent"
+          }
+        ],
+        "scienceStart": 9,
+        "turn": 21,
+        "scienceEnd": 6,
+        "resourceGained": {
+          "food": 24,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 24,
+        "foodEnd": 103
+      },
+      {
+        "villagerStart": 11,
+        "woodEnd": 23,
+        "stoneEnd": 24,
+        "villagerEnd": 11,
+        "resourceConsumed": {
+          "food": 13,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 103,
+        "woodStart": 19,
+        "events": [],
+        "scienceStart": 6,
+        "turn": 22,
+        "scienceEnd": 6,
+        "resourceGained": {
+          "food": 26,
+          "science": 0,
+          "stone": 0,
+          "wood": 4
+        },
+        "stoneStart": 24,
+        "foodEnd": 116
+      },
+      {
+        "villagerStart": 11,
+        "woodEnd": 26,
+        "stoneEnd": 24,
+        "villagerEnd": 11,
+        "resourceConsumed": {
+          "food": 12,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 116,
+        "woodStart": 23,
+        "events": [],
+        "scienceStart": 6,
+        "turn": 23,
+        "scienceEnd": 6,
+        "resourceGained": {
+          "food": 20,
+          "science": 0,
+          "stone": 0,
+          "wood": 3
+        },
+        "stoneStart": 24,
+        "foodEnd": 124
+      },
+      {
+        "villagerStart": 11,
+        "woodEnd": 24,
+        "stoneEnd": 24,
+        "villagerEnd": 11,
+        "resourceConsumed": {
+          "food": 11,
+          "science": 0,
+          "stone": 0,
+          "wood": 2
+        },
+        "foodStart": 124,
+        "woodStart": 26,
+        "events": [],
+        "scienceStart": 6,
+        "turn": 24,
+        "scienceEnd": 8,
+        "resourceGained": {
+          "food": 16,
+          "science": 2,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 24,
+        "foodEnd": 129
+      },
+      {
+        "villagerStart": 11,
+        "woodEnd": 30,
+        "stoneEnd": 28,
+        "villagerEnd": 11,
+        "resourceConsumed": {
+          "food": 11,
+          "science": 0,
+          "stone": 0,
+          "wood": 6
+        },
+        "foodStart": 129,
+        "woodStart": 24,
+        "events": [],
+        "scienceStart": 8,
+        "turn": 25,
+        "scienceEnd": 10,
+        "resourceGained": {
+          "food": 20,
+          "science": 2,
+          "stone": 4,
+          "wood": 12
+        },
+        "stoneStart": 24,
+        "foodEnd": 138
+      },
+      {
+        "villagerStart": 11,
+        "woodEnd": 35,
+        "stoneEnd": 34,
+        "villagerEnd": 11,
+        "resourceConsumed": {
+          "food": 11,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 138,
+        "woodStart": 30,
+        "events": [
+          {
+            "data": {
+              "typeName": "building:orchard"
+            },
+            "type": "BuildEvent"
+          }
+        ],
+        "scienceStart": 10,
+        "turn": 26,
+        "scienceEnd": 10,
+        "resourceGained": {
+          "food": 17,
+          "science": 0,
+          "stone": 6,
+          "wood": 5
+        },
+        "stoneStart": 28,
+        "foodEnd": 144
+      },
+      {
+        "villagerStart": 11,
+        "woodEnd": 35,
+        "stoneEnd": 39,
+        "villagerEnd": 12,
+        "resourceConsumed": {
+          "food": 16,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 144,
+        "woodStart": 35,
+        "events": [
+          {
+            "data": {
+              "typeName": "Normal"
+            },
+            "type": "VillagerGained"
+          }
+        ],
+        "scienceStart": 10,
+        "turn": 27,
+        "scienceEnd": 10,
+        "resourceGained": {
+          "food": 8,
+          "science": 0,
+          "stone": 5,
+          "wood": 0
+        },
+        "stoneStart": 34,
+        "foodEnd": 136
+      },
+      {
+        "villagerStart": 12,
+        "woodEnd": 41,
+        "stoneEnd": 40,
+        "villagerEnd": 12,
+        "resourceConsumed": {
+          "food": 12,
+          "science": 0,
+          "stone": 3,
+          "wood": 2
+        },
+        "foodStart": 136,
+        "woodStart": 35,
+        "events": [],
+        "scienceStart": 10,
+        "turn": 28,
+        "scienceEnd": 13,
+        "resourceGained": {
+          "food": 10,
+          "science": 3,
+          "stone": 4,
+          "wood": 8
+        },
+        "stoneStart": 39,
+        "foodEnd": 134
+      },
+      {
+        "villagerStart": 12,
+        "woodEnd": 35,
+        "stoneEnd": 40,
+        "villagerEnd": 12,
+        "resourceConsumed": {
+          "food": 12,
+          "science": 1,
+          "stone": 0,
+          "wood": 6
+        },
+        "foodStart": 134,
+        "woodStart": 41,
+        "events": [
+          {
+            "data": {
+              "typeName": "research:workshop"
+            },
+            "type": "ResearchEvent"
+          }
+        ],
+        "scienceStart": 13,
+        "turn": 29,
+        "scienceEnd": 12,
+        "resourceGained": {
+          "food": 13,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 40,
+        "foodEnd": 135
+      },
+      {
+        "villagerStart": 12,
+        "woodEnd": 29,
+        "stoneEnd": 40,
+        "villagerEnd": 13,
+        "resourceConsumed": {
+          "food": 17,
+          "science": 0,
+          "stone": 0,
+          "wood": 6
+        },
+        "foodStart": 135,
+        "woodStart": 35,
+        "events": [
+          {
+            "data": {
+              "typeName": "Normal"
+            },
+            "type": "VillagerGained"
+          }
+        ],
+        "scienceStart": 12,
+        "turn": 30,
+        "scienceEnd": 14,
+        "resourceGained": {
+          "food": 11,
+          "science": 2,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 40,
+        "foodEnd": 129
+      },
+      {
+        "villagerStart": 13,
+        "woodEnd": 25,
+        "stoneEnd": 40,
+        "villagerEnd": 14,
+        "resourceConsumed": {
+          "food": 18,
+          "science": 0,
+          "stone": 0,
+          "wood": 4
+        },
+        "foodStart": 129,
+        "woodStart": 29,
+        "events": [
+          {
+            "data": {
+              "typeName": "Normal"
+            },
+            "type": "VillagerGained"
+          }
+        ],
+        "scienceStart": 14,
+        "turn": 31,
+        "scienceEnd": 14,
+        "resourceGained": {
+          "food": 9,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 40,
+        "foodEnd": 120
+      },
+      {
+        "villagerStart": 14,
+        "woodEnd": 28,
+        "stoneEnd": 42,
+        "villagerEnd": 14,
+        "resourceConsumed": {
+          "food": 14,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 120,
+        "woodStart": 25,
+        "events": [],
+        "scienceStart": 14,
+        "turn": 32,
+        "scienceEnd": 14,
+        "resourceGained": {
+          "food": 35,
+          "science": 0,
+          "stone": 2,
+          "wood": 3
+        },
+        "stoneStart": 40,
+        "foodEnd": 141
+      },
+      {
+        "villagerStart": 14,
+        "woodEnd": 36,
+        "stoneEnd": 42,
+        "villagerEnd": 15,
+        "resourceConsumed": {
+          "food": 20,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 141,
+        "woodStart": 28,
+        "events": [
+          {
+            "data": {
+              "typeName": "Normal"
+            },
+            "type": "VillagerGained"
+          }
+        ],
+        "scienceStart": 14,
+        "turn": 33,
+        "scienceEnd": 14,
+        "resourceGained": {
+          "food": 15,
+          "science": 0,
+          "stone": 0,
+          "wood": 8
+        },
+        "stoneStart": 42,
+        "foodEnd": 136
+      },
+      {
+        "villagerStart": 15,
+        "woodEnd": 47,
+        "stoneEnd": 42,
+        "villagerEnd": 15,
+        "resourceConsumed": {
+          "food": 15,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 136,
+        "woodStart": 36,
+        "events": [],
+        "scienceStart": 14,
+        "turn": 34,
+        "scienceEnd": 16,
+        "resourceGained": {
+          "food": 32,
+          "science": 2,
+          "stone": 0,
+          "wood": 11
+        },
+        "stoneStart": 42,
+        "foodEnd": 153
+      },
+      {
+        "villagerStart": 15,
+        "woodEnd": 41,
+        "stoneEnd": 42,
+        "villagerEnd": 15,
+        "resourceConsumed": {
+          "food": 16,
+          "science": 0,
+          "stone": 0,
+          "wood": 6
+        },
+        "foodStart": 153,
+        "woodStart": 47,
+        "events": [],
+        "scienceStart": 16,
+        "turn": 35,
+        "scienceEnd": 16,
+        "resourceGained": {
+          "food": 31,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 42,
+        "foodEnd": 168
+      },
+      {
+        "villagerStart": 15,
+        "woodEnd": 41,
+        "stoneEnd": 42,
+        "villagerEnd": 15,
+        "resourceConsumed": {
+          "food": 15,
+          "science": 0,
+          "stone": 0,
+          "wood": 6
+        },
+        "foodStart": 168,
+        "woodStart": 41,
+        "events": [],
+        "scienceStart": 16,
+        "turn": 36,
+        "scienceEnd": 16,
+        "resourceGained": {
+          "food": 45,
+          "science": 0,
+          "stone": 0,
+          "wood": 6
+        },
+        "stoneStart": 42,
+        "foodEnd": 198
+      },
+      {
+        "villagerStart": 15,
+        "woodEnd": 45,
+        "stoneEnd": 44,
+        "villagerEnd": 15,
+        "resourceConsumed": {
+          "food": 15,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 198,
+        "woodStart": 41,
+        "events": [],
+        "scienceStart": 16,
+        "turn": 37,
+        "scienceEnd": 19,
+        "resourceGained": {
+          "food": 29,
+          "science": 3,
+          "stone": 2,
+          "wood": 4
+        },
+        "stoneStart": 42,
+        "foodEnd": 212
+      },
+      {
+        "villagerStart": 15,
+        "woodEnd": 55,
+        "stoneEnd": 44,
+        "villagerEnd": 15,
+        "resourceConsumed": {
+          "food": 18,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 212,
+        "woodStart": 45,
+        "events": [],
+        "scienceStart": 19,
+        "turn": 38,
+        "scienceEnd": 19,
+        "resourceGained": {
+          "food": 34,
+          "science": 0,
+          "stone": 0,
+          "wood": 10
+        },
+        "stoneStart": 44,
+        "foodEnd": 228
+      },
+      {
+        "villagerStart": 15,
+        "woodEnd": 59,
+        "stoneEnd": 48,
+        "villagerEnd": 15,
+        "resourceConsumed": {
+          "food": 15,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 228,
+        "woodStart": 55,
+        "events": [],
+        "scienceStart": 19,
+        "turn": 39,
+        "scienceEnd": 21,
+        "resourceGained": {
+          "food": 28,
+          "science": 2,
+          "stone": 4,
+          "wood": 4
+        },
+        "stoneStart": 44,
+        "foodEnd": 241
+      },
+      {
+        "villagerStart": 15,
+        "woodEnd": 53,
+        "stoneEnd": 48,
+        "villagerEnd": 15,
+        "resourceConsumed": {
+          "food": 16,
+          "science": 0,
+          "stone": 0,
+          "wood": 6
+        },
+        "foodStart": 241,
+        "woodStart": 59,
+        "events": [],
+        "scienceStart": 21,
+        "turn": 40,
+        "scienceEnd": 21,
+        "resourceGained": {
+          "food": 38,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 48,
+        "foodEnd": 263
+      },
+      {
+        "villagerStart": 15,
+        "woodEnd": 49,
+        "stoneEnd": 48,
+        "villagerEnd": 15,
+        "resourceConsumed": {
+          "food": 20,
+          "science": 0,
+          "stone": 0,
+          "wood": 4
+        },
+        "foodStart": 263,
+        "woodStart": 53,
+        "events": [],
+        "scienceStart": 21,
+        "turn": 41,
+        "scienceEnd": 21,
+        "resourceGained": {
+          "food": 22,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 48,
+        "foodEnd": 265
+      },
+      {
+        "villagerStart": 15,
+        "woodEnd": 49,
+        "stoneEnd": 52,
+        "villagerEnd": 15,
+        "resourceConsumed": {
+          "food": 16,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 265,
+        "woodStart": 49,
+        "events": [],
+        "scienceStart": 21,
+        "turn": 42,
+        "scienceEnd": 21,
+        "resourceGained": {
+          "food": 40,
+          "science": 0,
+          "stone": 4,
+          "wood": 0
+        },
+        "stoneStart": 48,
+        "foodEnd": 289
+      },
+      {
+        "villagerStart": 15,
+        "woodEnd": 53,
+        "stoneEnd": 46,
+        "villagerEnd": 15,
+        "resourceConsumed": {
+          "food": 16,
+          "science": 0,
+          "stone": 6,
+          "wood": 4
+        },
+        "foodStart": 289,
+        "woodStart": 49,
+        "events": [
+          {
+            "data": {
+              "typeName": "building:hospital"
+            },
+            "type": "BuildEvent"
+          }
+        ],
+        "scienceStart": 21,
+        "turn": 43,
+        "scienceEnd": 21,
+        "resourceGained": {
+          "food": 27,
+          "science": 0,
+          "stone": 0,
+          "wood": 8
+        },
+        "stoneStart": 52,
+        "foodEnd": 300
+      },
+      {
+        "villagerStart": 15,
+        "woodEnd": 56,
+        "stoneEnd": 48,
+        "villagerEnd": 15,
+        "resourceConsumed": {
+          "food": 15,
+          "science": 0,
+          "stone": 0,
+          "wood": 2
+        },
+        "foodStart": 300,
+        "woodStart": 53,
+        "events": [],
+        "scienceStart": 21,
+        "turn": 44,
+        "scienceEnd": 21,
+        "resourceGained": {
+          "food": 34,
+          "science": 0,
+          "stone": 2,
+          "wood": 5
+        },
+        "stoneStart": 46,
+        "foodEnd": 319
+      },
+      {
+        "villagerStart": 15,
+        "woodEnd": 54,
+        "stoneEnd": 50,
+        "villagerEnd": 15,
+        "resourceConsumed": {
+          "food": 15,
+          "science": 0,
+          "stone": 0,
+          "wood": 2
+        },
+        "foodStart": 319,
+        "woodStart": 56,
+        "events": [],
+        "scienceStart": 21,
+        "turn": 45,
+        "scienceEnd": 21,
+        "resourceGained": {
+          "food": 35,
+          "science": 0,
+          "stone": 2,
+          "wood": 0
+        },
+        "stoneStart": 48,
+        "foodEnd": 339
+      },
+      {
+        "villagerStart": 15,
+        "woodEnd": 52,
+        "stoneEnd": 50,
+        "villagerEnd": 15,
+        "resourceConsumed": {
+          "food": 18,
+          "science": 0,
+          "stone": 0,
+          "wood": 2
+        },
+        "foodStart": 339,
+        "woodStart": 54,
+        "events": [],
+        "scienceStart": 21,
+        "turn": 46,
+        "scienceEnd": 21,
+        "resourceGained": {
+          "food": 25,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 50,
+        "foodEnd": 346
+      },
+      {
+        "villagerStart": 15,
+        "woodEnd": 52,
+        "stoneEnd": 50,
+        "villagerEnd": 15,
+        "resourceConsumed": {
+          "food": 19,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 346,
+        "woodStart": 52,
+        "events": [
+          {
+            "data": {
+              "typeName": "ambition:prosperity"
+            },
+            "type": "AmbitionStarted"
+          }
+        ],
+        "scienceStart": 21,
+        "turn": 47,
+        "scienceEnd": 21,
+        "resourceGained": {
+          "food": 31,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 50,
+        "foodEnd": 358
+      },
+      {
+        "villagerStart": 15,
+        "woodEnd": 0,
+        "stoneEnd": 0,
+        "villagerEnd": 0,
+        "resourceConsumed": {
+          "food": 1,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "foodStart": 358,
+        "woodStart": 52,
+        "events": [],
+        "scienceStart": 21,
+        "turn": 48,
+        "scienceEnd": 0,
+        "resourceGained": {
+          "food": 0,
+          "science": 0,
+          "stone": 0,
+          "wood": 0
+        },
+        "stoneStart": 50,
+        "foodEnd": 0
+      }
+    ]
+  },
+  "actions": [
+    "region:4",
+    "region:5",
+    "region:6",
+    "region:7",
+    "region:188"
+  ],
+  "exploredLocations": [],
+  "turn": 48,
+  "wood": 52,
+  "tribe": "tribe_settlers",
+  "intCounter": 195
+}

@@ -1,0 +1,11 @@
+{
+  "highestLevelVictory": -1,
+  "longestTurn": 0,
+  "currentStreak": 0,
+  "win": 0,
+  "loss": 0,
+  "completedAmbitions": {},
+  "abandoned": 0,
+  "highestStreak": 0,
+  "played": 0
+}

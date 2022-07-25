@@ -1,0 +1,109 @@
+{
+  "villagers": [
+    {
+      "age": 47,
+      "dieLocation": "village",
+      "faceIndex": 3,
+      "id": 0,
+      "type": "Doctor"
+    },
+    {
+      "age": 47,
+      "dieLocation": "region",
+      "faceIndex": 1,
+      "id": 1,
+      "type": "Normal"
+    },
+    {
+      "age": 47,
+      "dieLocation": "region",
+      "faceIndex": 3,
+      "id": 2,
+      "type": "Explorer"
+    },
+    {
+      "age": 47,
+      "dieLocation": "region",
+      "faceIndex": 3,
+      "id": 3,
+      "type": "Farmer"
+    },
+    {
+      "age": 47,
+      "dieLocation": "region",
+      "faceIndex": 2,
+      "id": 10,
+      "type": "Farmer"
+    },
+    {
+      "age": 45,
+      "dieLocation": "region",
+      "faceIndex": 2,
+      "id": 15,
+      "type": "Forager"
+    },
+    {
+      "age": 44,
+      "dieLocation": "village",
+      "faceIndex": 3,
+      "id": 20,
+      "type": "Lumberjack"
+    },
+    {
+      "age": 42,
+      "dieLocation": "village",
+      "faceIndex": 4,
+      "id": 27,
+      "type": "Normal"
+    },
+    {
+      "age": 40,
+      "dieLocation": "region",
+      "faceIndex": 2,
+      "id": 33,
+      "type": "Normal"
+    },
+    {
+      "age": 38,
+      "dieLocation": "region",
+      "faceIndex": 1,
+      "id": 42,
+      "type": "Doctor"
+    },
+    {
+      "age": 35,
+      "dieLocation": "region",
+      "faceIndex": 0,
+      "id": 55,
+      "type": "Forager"
+    },
+    {
+      "age": 21,
+      "dieLocation": "village",
+      "faceIndex": 4,
+      "id": 108,
+      "type": "Doctor"
+    },
+    {
+      "age": 18,
+      "dieLocation": "region",
+      "faceIndex": 5,
+      "id": 117,
+      "type": "Forager"
+    },
+    {
+      "age": 17,
+      "dieLocation": "village",
+      "faceIndex": 3,
+      "id": 121,
+      "type": "Normal"
+    },
+    {
+      "age": 15,
+      "dieLocation": "village",
+      "faceIndex": 3,
+      "id": 127,
+      "type": "Normal"
+    }
+  ]
+}

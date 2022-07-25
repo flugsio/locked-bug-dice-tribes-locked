@@ -1,0 +1,1854 @@
+{
+  "regions": [
+    {
+      "config": {
+        "turnsLeft": -1,
+        "turnsAlive": 47,
+        "regionName": "Village",
+        "id": 4,
+        "additionalData": [
+          {},
+          {}
+        ],
+        "typeId": "village:settlervillage",
+        "dieRegions": [
+          {
+            "criteria": {
+              "intValue": 1,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "SettlerVillage"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "turnsAlive": 47,
+        "regionName": "Explore",
+        "id": 5,
+        "additionalData": [
+          {}
+        ],
+        "typeId": "action:explore",
+        "dieRegions": [
+          {
+            "criteria": {
+              "intValue": 6,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 6,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 6,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "ExploreAction"
+    },
+    {
+      "config": {
+        "researches": [
+          "research:religion",
+          "research:military",
+          null,
+          null
+        ],
+        "turnsLeft": -1,
+        "turnsAlive": 47,
+        "regionName": "Research",
+        "id": 6,
+        "additionalData": [],
+        "typeId": "action:research",
+        "dieRegions": [
+          {
+            "criteria": {
+              "type": "Odd"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "type": "Even"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "type": "Odd"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "type": "Even"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "ResearchAction"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "turnsAlive": 47,
+        "regionName": "Build",
+        "id": 7,
+        "additionalData": [
+          {}
+        ],
+        "buildingTemplates": [
+          "building:stonetools",
+          "building:trapperhut",
+          "building:workshop"
+        ],
+        "typeId": "action:build",
+        "dieRegions": [
+          {
+            "criteria": {
+              "intValue": 4,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 4,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 4,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "BuildAction"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "turnsAlive": 0,
+        "regionName": "Grim Reaper",
+        "id": 188,
+        "additionalData": [],
+        "goalData": {
+          "stage": "KillGrimReaper"
+        },
+        "typeId": "ambition:grimreaper",
+        "dieRegions": [],
+        "version": 1
+      },
+      "type": "GrimReaperAmbition"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "turnsAlive": 47,
+        "regionName": "Farm",
+        "id": 9,
+        "additionalData": [
+          {},
+          {}
+        ],
+        "typeId": "building:farm",
+        "dieRegions": [
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": false,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": {
+              "current": 8,
+              "required": 15,
+              "reset": true
+            }
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 4,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "Farm"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "turnsAlive": 39,
+        "regionName": "Forager Hut",
+        "id": 29,
+        "additionalData": [
+          {},
+          {}
+        ],
+        "count": 14,
+        "typeId": "building:foragerhut",
+        "dieRegions": [
+          {
+            "criteria": {
+              "type": "Even"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": false,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 4,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "ForagerHut"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "turnsAlive": 37,
+        "regionName": "Woodcutter Hut",
+        "id": 45,
+        "additionalData": [
+          {},
+          {}
+        ],
+        "count": 1,
+        "typeId": "building:woodcutterhut",
+        "dieRegions": [
+          {
+            "criteria": {
+              "type": "Even"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": false,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 4,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "WoodcutterHut"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "turnsAlive": 35,
+        "regionName": "Wooden Tools",
+        "id": 53,
+        "additionalData": [
+          {}
+        ],
+        "typeId": "building:woodentools",
+        "dieRegions": [
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 4,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "WoodenTools"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "turnsAlive": 22,
+        "regionName": "Orchard",
+        "id": 104,
+        "additionalData": [],
+        "typeId": "building:orchard",
+        "dieRegions": [
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": false,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": {
+              "current": 15,
+              "required": 15,
+              "reset": false
+            }
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": false,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": {
+              "current": 15,
+              "required": 15,
+              "reset": false
+            }
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": false,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": {
+              "current": 15,
+              "required": 15,
+              "reset": false
+            }
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": false,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": {
+              "current": 15,
+              "required": 15,
+              "reset": false
+            }
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": false,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": {
+              "current": 15,
+              "required": 15,
+              "reset": false
+            }
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": false,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": {
+              "current": 15,
+              "required": 15,
+              "reset": false
+            }
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": false,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": {
+              "current": 15,
+              "required": 15,
+              "reset": false
+            }
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": false,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": {
+              "current": 15,
+              "required": 15,
+              "reset": false
+            }
+          }
+        ],
+        "version": 1
+      },
+      "type": "Orchard"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "turnsAlive": 4,
+        "regionName": "Hospital",
+        "id": 167,
+        "conf": {
+          "regionType": "BuildingType",
+          "regionGroups": [
+            {
+              "position": [
+                0,
+                0
+              ],
+              "conf": {
+                "layout": "Layout_2_2",
+                "trainType": "Doctor"
+              },
+              "type": "TrainRegionGroup"
+            },
+            {
+              "position": [
+                1,
+                0
+              ],
+              "conf": {},
+              "type": "DemolishRegionGroup"
+            },
+            {
+              "position": [
+                0,
+                1
+              ],
+              "conf": {
+                "faceValue": 5,
+                "header": "FIRST AID",
+                "cost": 1,
+                "costType": "Science",
+                "layout": "Layout_1_2"
+              },
+              "type": "SetFaceValueUtilityRegionGroup"
+            }
+          ],
+          "name": "Hospital"
+        },
+        "additionalData": [
+          {},
+          {},
+          {}
+        ],
+        "typeId": "building:hospital",
+        "dieRegions": [
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [
+              "die:2"
+            ],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": "die:2",
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 4,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "ConfigurationRegion"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "layoutType": "ChargeSingle",
+        "turnsAlive": 25,
+        "regionName": "Abandoned Tools",
+        "usesLeft": 2,
+        "id": 87,
+        "additionalData": [
+          {},
+          {}
+        ],
+        "tools": [
+          {
+            "type": "morph",
+            "intValue": 5
+          }
+        ],
+        "typeId": null,
+        "dieRegions": [
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [
+              "die:42"
+            ],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": "die:42",
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "world.regions.locations.GenericToolsLocation"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "layoutType": "SingleUseGrid4",
+        "turnsAlive": 1,
+        "regionName": "Abandoned Tools",
+        "usesLeft": 0,
+        "id": 182,
+        "additionalData": [
+          {},
+          {}
+        ],
+        "tools": [
+          {
+            "type": "morph",
+            "intValue": 6
+          },
+          {
+            "type": "morph",
+            "intValue": 5
+          },
+          {
+            "type": "minmax",
+            "intValue": 1
+          },
+          {
+            "type": "minmax",
+            "intValue": 1
+          }
+        ],
+        "typeId": null,
+        "dieRegions": [
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": true,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": true,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": true,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": true,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "world.regions.locations.GenericToolsLocation"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "rewards": [
+          {
+            "amount": null,
+            "reward": {
+              "resourceType": "Science",
+              "type": "Resource"
+            }
+          },
+          {
+            "amount": null,
+            "reward": {
+              "resourceType": "Food",
+              "type": "Resource"
+            }
+          },
+          {
+            "amount": null,
+            "reward": {
+              "resourceType": "Food",
+              "type": "Resource"
+            }
+          },
+          {
+            "amount": null,
+            "reward": {
+              "resourceType": "Food",
+              "type": "Resource"
+            }
+          }
+        ],
+        "turnsAlive": 2,
+        "regionName": "Rich Forest",
+        "id": 177,
+        "additionalData": [],
+        "headerRenderOverride": "region:banner:richlocation",
+        "typeId": null,
+        "dieRegions": [
+          {
+            "criteria": {
+              "intValue": 4,
+              "type": "LessThanEqual"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 6,
+              "type": "LessThanEqual"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": true,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 6,
+              "type": "LessThanEqual"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": true,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 5,
+              "type": "LessThanEqual"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": true,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "SimpleLocation"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "rewards": [
+          {
+            "amount": null,
+            "reward": {
+              "resourceType": "Stone",
+              "type": "Resource"
+            }
+          },
+          {
+            "amount": null,
+            "reward": {
+              "resourceType": "Food",
+              "type": "Resource"
+            }
+          },
+          {
+            "amount": null,
+            "reward": {
+              "resourceType": "Food",
+              "type": "Resource"
+            }
+          },
+          {
+            "amount": null,
+            "reward": {
+              "resourceType": "Food",
+              "type": "Resource"
+            }
+          }
+        ],
+        "turnsAlive": 4,
+        "regionName": "Grassland",
+        "id": 173,
+        "additionalData": [],
+        "headerRenderOverride": null,
+        "typeId": null,
+        "dieRegions": [
+          {
+            "criteria": {
+              "intValue": 4,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 3,
+              "type": "LessThanEqual"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": true,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 3,
+              "type": "LessThanEqual"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": true,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 2,
+              "type": "LessThanEqual"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": true,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "SimpleLocation"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "turnsAlive": 1,
+        "biome": "biome:grasslands",
+        "depth": 0,
+        "regionName": "Explore Grassland",
+        "id": 186,
+        "additionalData": [],
+        "reward": {
+          "resourceType": "Food",
+          "type": "Resource"
+        },
+        "typeId": "location:explorebiome",
+        "dieRegions": [
+          {
+            "criteria": {
+              "intValue": 6,
+              "type": "LessThanEqual"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": true,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "type": "Any"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 6,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "ExploreBiome"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "turnsAlive": 0,
+        "regionName": "Grim Reaper",
+        "id": 189,
+        "resourceAmount": 0,
+        "additionalData": [],
+        "typeId": "event:grim1",
+        "dieRegions": [
+          {
+            "criteria": {
+              "intValue": 1,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 1,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 1,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 1,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "GrimReaper1"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "turnsAlive": 0,
+        "regionName": "Grim Reaper",
+        "id": 190,
+        "herbsLeft": 2,
+        "additionalData": [
+          {}
+        ],
+        "typeId": "event:grim2",
+        "dieRegions": [
+          {
+            "criteria": {
+              "intValue": 2,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [
+              "die:15"
+            ],
+            "disableOnPlace": true,
+            "disabled": true,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": "die:15",
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 2,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 2,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [
+              "die:55"
+            ],
+            "disableOnPlace": true,
+            "disabled": true,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": "die:55",
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 2,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 2,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [
+              "die:1"
+            ],
+            "disableOnPlace": true,
+            "disabled": true,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": "die:1",
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 2,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 2,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 2,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "GrimReaper2"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "turnsAlive": 0,
+        "regionName": "Grim Reaper",
+        "id": 191,
+        "herbsLeft": 2,
+        "additionalData": [
+          {}
+        ],
+        "typeId": "event:grim3",
+        "dieRegions": [
+          {
+            "criteria": {
+              "intValue": 3,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [
+              "die:33"
+            ],
+            "disableOnPlace": true,
+            "disabled": true,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": "die:33",
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 3,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 3,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [
+              "die:10"
+            ],
+            "disableOnPlace": true,
+            "disabled": true,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": "die:10",
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 3,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 3,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [
+              "die:3"
+            ],
+            "disableOnPlace": true,
+            "disabled": true,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": "die:3",
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 3,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 3,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 3,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "GrimReaper3"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "turnsAlive": 0,
+        "regionName": "Grim Reaper",
+        "id": 192,
+        "resourceAmount": 1,
+        "additionalData": [
+          {}
+        ],
+        "typeId": "event:grim4",
+        "dieRegions": [
+          {
+            "criteria": {
+              "intValue": 4,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 4,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "GrimReaper4"
+    },
+    {
+      "config": {
+        "turnsLeft": 2,
+        "turnsAlive": 0,
+        "regionName": "Grim Reaper",
+        "id": 193,
+        "resourceAmount": 2,
+        "additionalData": [
+          {}
+        ],
+        "typeId": "event:grim5",
+        "dieRegions": [
+          {
+            "criteria": {
+              "intValue": 5,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 5,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 5,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": false,
+            "disabled": false,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "GrimReaper5"
+    },
+    {
+      "config": {
+        "turnsLeft": -1,
+        "turnsAlive": 0,
+        "regionName": "Grim Reaper",
+        "id": 194,
+        "additionalData": [
+          {}
+        ],
+        "typeId": "event:grim6",
+        "dieRegions": [
+          {
+            "criteria": {
+              "intValue": 6,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": true,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 6,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [
+              "die:117"
+            ],
+            "disableOnPlace": true,
+            "disabled": true,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": "die:117",
+            "restrictDieType": null,
+            "sumData": null
+          },
+          {
+            "criteria": {
+              "intValue": 6,
+              "type": "FaceValue"
+            },
+            "depleteOnPlace": false,
+            "depleted": false,
+            "dice": [],
+            "disableOnPlace": true,
+            "disabled": true,
+            "disallowDiceType": null,
+            "lockDieOnPlace": true,
+            "lockedDie": null,
+            "restrictDieType": null,
+            "sumData": null
+          }
+        ],
+        "version": 1
+      },
+      "type": "GrimReaper6"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "researches": [
+    {
+      "discovered": false,
+      "id": "research:collector",
+      "researched": false
+    },
+    {
+      "discovered": false,
+      "id": "research:fishfarm",
+      "researched": false
+    },
+    {
+      "discovered": true,
+      "id": "research:religion",
+      "researched": false
+    },
+    {
+      "discovered": true,
+      "id": "research:stonetools",
+      "researched": true
+    },
+    {
+      "discovered": false,
+      "id": "research:knowledge",
+      "researched": false
+    },
+    {
+      "discovered": false,
+      "id": "research:apiculture",
+      "researched": false
+    },
+    {
+      "discovered": false,
+      "id": "research:necromancy",
+      "researched": false
+    },
+    {
+      "discovered": false,
+      "id": "research:waterwell",
+      "researched": false
+    },
+    {
+      "discovered": true,
+      "id": "research:workshop",
+      "researched": true
+    },
+    {
+      "discovered": true,
+      "id": "research:medicine",
+      "researched": true
+    },
+    {
+      "discovered": false,
+      "id": "research:fishery",
+      "researched": false
+    },
+    {
+      "discovered": false,
+      "id": "research:storage",
+      "researched": false
+    },
+    {
+      "discovered": false,
+      "id": "research:divination",
+      "researched": false
+    },
+    {
+      "discovered": true,
+      "id": "research:trapping",
+      "researched": true
+    },
+    {
+      "discovered": true,
+      "id": "research:farming",
+      "researched": true
+    },
+    {
+      "discovered": false,
+      "id": "research:legacy",
+      "researched": false
+    },
+    {
+      "discovered": false,
+      "id": "research:archeology",
+      "researched": false
+    },
+    {
+      "discovered": true,
+      "id": "research:woodtools",
+      "researched": true
+    },
+    {
+      "discovered": true,
+      "id": "research:orchard",
+      "researched": true
+    },
+    {
+      "discovered": false,
+      "id": "research:hunting",
+      "researched": false
+    },
+    {
+      "discovered": true,
+      "id": "research:foraging",
+      "researched": true
+    },
+    {
+      "discovered": true,
+      "id": "research:military",
+      "researched": false
+    },
+    {
+      "discovered": true,
+      "id": "research:prosperity",
+      "researched": true
+    },
+    {
+      "discovered": false,
+      "id": "research:trading",
+      "researched": false
+    },
+    {
+      "discovered": true,
+      "id": "research:woodcutter",
+      "researched": true
+    },
+    {
+      "discovered": false,
+      "id": "research:brewing",
+      "researched": false
+    },
+    {
+      "discovered": false,
+      "id": "research:mycology",
+      "researched": false
+    }
+  ]
+}
